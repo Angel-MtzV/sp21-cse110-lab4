@@ -18,7 +18,7 @@ part1b
     
     3. line 14 will output 150 because the last value of prices is 300 once we do the operation in line 8 discountedPrice will have the value of 150
     
-    4. The function returns {50, 100, 150}. the function halfs the given price i, stores the value in discountPrice and finalPrice, and then appends the value into the array discounted 
+    4. The function returns [50, 100, 150]. the function halfs the given price i, stores the value in discountPrice and finalPrice, and then appends the value into the array discounted 
     
     5. There is an error, since i was declared in the for loop then this variable is not in the same block space as line 12 which means line 12 cannot access i
     
@@ -26,13 +26,13 @@ part1b
     
     7. like question 3 line 14 will output 150 since there is no error in the code because the for loop is in the same block space
     
-    8. the function will return {50, 100, 150}. Because there are no variables being accesed outside of theit block space then the functions runs just like question 4.
+    8. the function will return [50, 100, 150]. Because there are no variables being accesed outside of theit block space then the functions runs just like question 4.
     
-    9. the code will not reach line 11 because there is an error in line 8. since dicounted is of type const then the code cannot push discountedPrice into discounted.
+    9. line 11 will output 3, length has a value of 3 so when i = 3 in the for loop the loop will stop.
     
-    10. the code will not reach line 12 because there is an error in line 8. since dicounted is of type const then the code cannot push discountedPrice into discounted.
+    10. line 12 will outout 3 since length was defined to be the length of the prices array and there is no modification to length after its declaration then length will remain with a value of 3.
     
-    11. the code will not reach the return statement because there is an error in line 8. since dicounted is of type const then the code cannot push discountedPrice into discounted. 
+    11. the function will return [50, 100, 150], since we are able to push into discounted and revalue discountedPrice since it is inside the for loop then the problem is like question 4.  
     
     12. a. student.name;
         b. student['Grad Year'];
@@ -57,3 +57,14 @@ part1b
         f. true, since the inside of the function is not empty, 0, -0, null, false, NaN, undefined, or "" then the function returns true, so true is equal to true.
 
     15. == checks for equality and allows for type conversion but === checks for equality without allowing for type conversion
+    
+    16. check part1b-question16.js file
+    
+    17. the function returns [2, 4, 6]. In modifyArray inside the for loop the function first gets the value of array[i] then the function passes that value into the function doSomething this function returns 2*array[i] then the original function pushes the value into newArr. The function does this for i = 0, 1, 2, then the function returns newArr.
+    
+    18. check part1b-question18.js file
+    
+    19. 1
+        4
+        3
+        2
