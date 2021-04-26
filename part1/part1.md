@@ -1,4 +1,4 @@
-part1a
+## Part1a  
     1. values added: 20
     
     2. final result: 20
@@ -11,7 +11,7 @@ part1a
     
     6. Nothing is printed by line 13 because there is this error in line 7 cannot reassign to a constant valiable after declaring it. since result has a value of 0 we cannot assign the summation value to result
 
-part1b
+## Part1b  
     1. line 12 will output 3 because the for loop runs without errors and since prices.length is 3 when i = 3 the for loop will stop 
     
     2. line 13 will output 150 because the last value of prices is 300 once we do the operation in line 7 discountedPrice will have the value of 150
