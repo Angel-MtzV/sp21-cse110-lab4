@@ -40,7 +40,7 @@ part1b
         d.
         e.
     
-    13. a. '32' because 2 is converted to a      string since + also signifies concatination
+    13. a. '32' because 2 is converted to a string since + also signifies concatination
         b. 1 since - only signifies subtraction '3' is converted to an integer
         c. 3, null is converted to 0 so 3 + 0 is 3
         d. 3null, null is converted to a string and concatinated with '3'
